@@ -87,3 +87,5 @@ plot <- plot + geom_point(aes(shape = factor(admit)), size = 3) +
 plot <- plot + xlab("GPA") +ylab("Test Scores") + ggtitle("GPA vs Test Scores")
 
 plot
+
+a = requests.get('http://d.yimg.com/aq/autoc?query=vodafone%20idea&region=US&lang=en-US')
